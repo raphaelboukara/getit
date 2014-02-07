@@ -189,9 +189,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Contact Get It</h2>
-                        <p>Feel free to email us to provide some feedback on our projects, give us suggestions for new ideas and project, or to just say hello!</p>
-                        <p>natou@getit.com</p>
-                        <div id="map"></div>
+                        <div class="row">
+                            <form class="form-horizontal" role="form">
+                              <div class="form-group">
+                                <div class="col-lg-12">
+                                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-lg-12">
+                                  <textarea class="form-control" rows="3" placeholder="Something to share?"></textarea>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-lg-12">
+                                  <button type="submit" class="btn btn-default pull-right">Contact us</button>
+                                </div>
+                              </div>
+                            </form>
+                        </div>
                         <ul class="list-inline banner-social-buttons">
                             <li><a href="https://twitter.com/SBootstrap"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -203,6 +219,8 @@
                     </div>
                 </div>
             </div>
+            
+        <div id="map"></div>
         </div>
     </section>
 

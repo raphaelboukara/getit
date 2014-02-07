@@ -234,6 +234,18 @@ a:focus {
 .contact h2:first-letter {
     color: #ffff8e;
 }
+.contact .btn-default {
+    border: 1px solid #ffff8e;
+    color: #ffff8e;
+    background-color: transparent;
+}
+.contact .btn-default:hover,
+.contact .btn-default:focus {
+    border: 1px solid #ffff8e;
+    outline: 0;
+    color: #000;
+    background-color: #ffff8e;
+}
 
 .intro-body {
     display: table-cell;
@@ -369,7 +381,7 @@ a:focus {
     }
 
     #map {
-        height: 100px;
+        height: 400px;
     }
 }
 
